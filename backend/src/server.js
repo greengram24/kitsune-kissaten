@@ -8,7 +8,7 @@ import menuRoutes from "./routes/menuRoutes.js";
 import reviewRoutes from "./routes/reviewRoutes.js";
 import userRoutes from "./routes/userRoutes.js";
 import { connectDB } from "./config/db.js";
-import rateLimiter from "./middleware/rateLimiter.js";
+// import rateLimiter from "./middleware/rateLimiter.js";
 
 dotenv.config();
 
@@ -25,7 +25,7 @@ if (process.env.NODE_ENV !== "production") {
   );
 }
 app.use(express.json()); // this middleware will parse JSON bodies: req.body
-app.use(rateLimiter);
+// app.use(rateLimiter);
 
 // Serve static files for uploaded images
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
@@ -44,8 +44,13 @@ if (process.env.NODE_ENV === "production") {
   });
 }
 
-connectDB().then(() => {
-  app.listen(PORT, () => {
-    console.log("Server started on PORT:", PORT);
+connectDB()
+  .then(() => {
+    app.listen(PORT, () => {
+      console.log("Server started on PORT:", PORT);
+    });
+  })
+  .catch((error) => {
+    console.error("Failed to connect to database:", error);
+    process.exit(1);
   });
-});
