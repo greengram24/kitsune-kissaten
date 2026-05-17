@@ -9,5 +9,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greengram24/kitsune-kissaten.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/greengram24/kitsune-kissaten/issues"
+  },
+  "homepage": "https://github.com/greengram24/kitsune-kissaten#readme"
 }
