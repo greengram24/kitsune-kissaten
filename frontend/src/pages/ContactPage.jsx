@@ -91,8 +91,20 @@ const ContactPage = () => {
                 <h2 className="card-title text-primary text-2xl">Contact Info</h2>
                 <div className="mt-4 space-y-2">
                   <p className="flex items-center gap-2">
-                    <span className="text-primary">✉️</span>
+                    <span className="text-primary">【✉️】</span>
                     <span>kitsunekissatenph@gmail.com</span>
+                  </p>
+                  <p className="flex items-center gap-2">
+                    <span className="text-primary">【ⓕ】</span>
+                    <span>https://www.facebook.com/kitsunekissaten</span>
+                  </p>
+                  <p className="flex items-center gap-2">
+                    <span className="text-primary">【🅾】</span>
+                    <span>https://www.instagram.com/kitsunekissaten</span>
+                  </p>
+                  <p className="flex items-center gap-2">
+                    <span className="text-primary">【ꚠ】</span>
+                    <span>https://www.tiktok.com/@kitsunekissaten</span>
                   </p>
                 </div>
               </div>
