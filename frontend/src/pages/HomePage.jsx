@@ -1,11 +1,8 @@
-import Navbar from "../components/Navbar";
 import Banner from "../components/Banner";
 
 const HomePage = () => {
   return (
-    <div className="min-h-screen flex flex-col">
-
-      <Navbar />
+    <div className="min-h-dvh flex flex-col">
 
       {/* HERO BANNER */}
       <Banner 
@@ -14,34 +11,28 @@ const HomePage = () => {
       />
 
       {/* CONTENT SECTION */}
-      <div className="max-w-7xl mx-auto px-4 py-16 md:py-24">
+      <div className="max-w-7xl mx-auto px-4 py-16 md:py-24 w-full">
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
           <div className="card bg-base-100 shadow-xl">
             <div className="card-body">
               <h2 className="card-title text-primary">Premium Coffee</h2>
-              <p>
-                Expertly crafted beverages using the finest beans from around the world.
-              </p>
+              <p>Expertly crafted beverages using the finest beans from around the world.</p>
             </div>
           </div>
 
           <div className="card bg-base-100 shadow-xl">
             <div className="card-body">
               <h2 className="card-title text-primary">Delicious Food</h2>
-              <p>
-                Authentic Japanese-inspired dishes made with fresh, locally sourced ingredients.
-              </p>
+              <p>Authentic Japanese-inspired dishes made with fresh, locally sourced ingredients.</p>
             </div>
           </div>
 
           <div className="card bg-base-100 shadow-xl">
             <div className="card-body">
               <h2 className="card-title text-primary">Cozy Atmosphere</h2>
-              <p>
-                Relax in our beautifully designed space perfect for work or leisure.
-              </p>
+              <p>Relax in our beautifully designed space perfect for work or leisure.</p>
             </div>
           </div>
 

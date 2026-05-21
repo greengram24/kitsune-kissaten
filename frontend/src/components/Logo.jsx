@@ -6,7 +6,6 @@ const Logo = ({ size = "text-3xl" }) => {
         alt="Kitsune Kissaten logo"
         className="h-12 w-auto"
         onError={(e) => {
-          // Fallback to text if image fails to load
           e.target.style.display = "none";
         }}
       />
