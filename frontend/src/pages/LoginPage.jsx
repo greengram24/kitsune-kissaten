@@ -51,7 +51,6 @@ const LoginPage = () => {
 
   return (
     <div className="min-h-screen">
-      <Navbar />
       <div className="max-w-md mx-auto p-4 mt-12">
         <div className="card bg-base-100 shadow-xl">
           <div className="card-body">

@@ -13,10 +13,8 @@ const App = () => {
   return (
     <div className="relative min-h-dvh w-full overflow-x-hidden">
 
-      {/* Background */}
       <div className="fixed inset-0 -z-10 bg-[radial-gradient(125%_125%_at_50%_10%,#000_60%,#00FF9D40_100%)]" />
 
-      {/* Global Navbar */}
       <Navbar />
 
       <Routes>
