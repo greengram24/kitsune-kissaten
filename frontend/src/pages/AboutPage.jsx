@@ -59,7 +59,7 @@ const AboutPage = () => {
               <div className="text-center">
                 <div className="avatar placeholder">
                   <div className="bg-primary text-primary-content rounded-full w-24">
-                    <span className="text-3xl">Y</span>
+                    <span className="text-3xl">A</span>
                   </div>
                 </div>
                 <h3 className="mt-4 font-bold text-lg">Avriel Valderama</h3>
@@ -68,7 +68,7 @@ const AboutPage = () => {
               <div className="text-center">
                 <div className="avatar placeholder">
                   <div className="bg-primary text-primary-content rounded-full w-24">
-                    <span className="text-3xl">K</span>
+                    <span className="text-3xl">B</span>
                   </div>
                 </div>
                 <h3 className="mt-4 font-bold text-lg">Benedict Sales</h3>
@@ -77,7 +77,7 @@ const AboutPage = () => {
               <div className="text-center">
                 <div className="avatar placeholder">
                   <div className="bg-primary text-primary-content rounded-full w-24">
-                    <span className="text-3xl">M</span>
+                    <span className="text-3xl">V</span>
                   </div>
                 </div>
                 <h3 className="mt-4 font-bold text-lg">Vhince Pascua</h3>
