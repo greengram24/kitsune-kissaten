@@ -3,7 +3,7 @@ import { Link } from "react-router";
 const Banner = ({ title, subtitle, showCTA = true }) => {
   return (
     <div
-      className="hero min-h-[85vh] relative"
+      className="hero min-h-[85vh] w-screen relative bg-cover bg-center"
       style={{
         backgroundImage: "url('/banner.jpg')",
       }}
