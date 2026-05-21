@@ -7,7 +7,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['"Montserrat"', 'sans-serif'],
+      },
+    },
   },
   plugins: [
     daisyui,
@@ -36,6 +40,8 @@ export default {
           "success": "#8aa676",
           "warning": "#d69a3c",
           "error": "#c46b51",
+          
+          "fontFamily": '"Montserrat", sans-serif',
         },
       },
     ],
